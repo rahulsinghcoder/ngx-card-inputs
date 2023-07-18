@@ -11,6 +11,12 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "ngx-card-inputs": [
+        "dist/ngx-card-inputs/ngx-card-inputs",
+        "dist/ngx-card-inputs"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
@@ -19,7 +25,7 @@
     "target": "es2017",
     "module": "es2020",
     "lib": [
-      "es2020",
+      "es2021",
       "dom"
     ]
   },
